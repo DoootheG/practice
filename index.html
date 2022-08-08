@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>환영합니다</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi status-bar__column-icons"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>111%</span>
+        <i class="fa-solid fa-battery-full status-bar__column-icons"></i>
+        <i class="fa-solid fa-bolt status-bar__column-icons"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">카카오톡에 오신 것을 환영합니다!</h1>
+      <h2 class="welcome-header__text">카카오톡 계정이 있으시다면,</h2>
+      <h3 class="welcome-header__text">
+        이메일 주소 혹은 핸드폰 번호로 로그인 하세요.
+      </h3>
+    </header>
+
+    <form action="friends.html" method="" class="welcome-login main-screen">
+      <input
+        name="username"
+        type="text"
+        placeholder="이메일주소 혹은 핸드폰번호"
+        class="welcome-login__input"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="비밀번호"
+        class="welcome-login__input"
+      />
+      <input type="submit" value="로그인" class="welcome-login__login" />
+      <a href="#" class="welcome-login__find">계정 또는 비밀번호 찾기</a>
+    </form>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/0c8e96b5bf.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
