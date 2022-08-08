@@ -1,0 +1,16 @@
+.title-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.title-menu__name {
+  font-size: 50px;
+}
+
+.title-menu__icons i {
+  margin-left: 15px;
+  position: relative;
+  top: 6px;
+}

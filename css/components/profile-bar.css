@@ -1,0 +1,17 @@
+.profile-bar {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.profile-bar__photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 40%;
+}
+
+.profile-bar__contents {
+  margin-left: 10px;
+}
+.profile-bar__contents-name {
+  font-size: larger;
+}

@@ -1,7 +1,10 @@
 @import "reset.css";
 @import "variables.css";
 @import "screens/login.css";
+@import "screens/friends.css";
 @import "components/status-bar.css";
+@import "components/title-menu.css";
+@import "components/profile-bar.css";
 
 body {
   font-family: "Dongle", sans-serif;

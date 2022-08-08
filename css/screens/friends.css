@@ -1,0 +1,37 @@
+.friends-find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  height: 50px;
+}
+
+.friends-find i {
+  color: var(--gray);
+}
+
+.friends-find p {
+  margin: 0 10px;
+}
+
+.friends-channel {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--gray);
+  margin: 0 25px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.friends-channel__text {
+  margin: 10px 0;
+}
+
+.friends-channel i {
+  position: relative;
+  top: 20px;
+}
+
+.profile-bar__photo-sm {
+  height: 60px;
+  width: 60px;
+}
