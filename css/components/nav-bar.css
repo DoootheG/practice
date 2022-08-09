@@ -1,0 +1,42 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  background-color: #f9f9fa;
+  width: 100%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  display: flex;
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  left: 15px;
+  bottom: 25px;
+}
+
+.nav__box {
+  display: flex;
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  left: 25px;
+}

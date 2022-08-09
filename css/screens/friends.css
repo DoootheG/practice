@@ -19,19 +19,17 @@
   justify-content: space-between;
   border-top: 1px solid var(--gray);
   margin: 0 25px;
+
   color: rgba(0, 0, 0, 0.4);
 }
 
 .friends-channel__text {
   margin: 10px 0;
+  font-size: 23px;
 }
 
 .friends-channel i {
   position: relative;
   top: 20px;
-}
-
-.profile-bar__photo-sm {
-  height: 60px;
-  width: 60px;
+  font-size: 15px;
 }

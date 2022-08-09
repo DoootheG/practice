@@ -5,6 +5,7 @@
 @import "components/status-bar.css";
 @import "components/title-menu.css";
 @import "components/profile-bar.css";
+@import "components/nav-bar.css";
 
 body {
   font-family: "Dongle", sans-serif;

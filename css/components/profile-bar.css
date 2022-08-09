@@ -1,17 +1,55 @@
 .profile-bar {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   margin: 15px 0;
 }
+
+.profile-bar__column {
+  display: flex;
+  align-items: center;
+}
 .profile-bar__photo {
-  width: 80px;
-  height: 80px;
   border-radius: 40%;
 }
 
 .profile-bar__contents {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
-.profile-bar__contents-name {
-  font-size: larger;
+
+.profile-bar__contents-sub {
+  display: flex;
+  color: var(--gray);
+}
+
+.profile-bar__contents-sub i {
+  position: relative;
+  top: 11px;
+  left: 2px;
+}
+
+.profile-bar__photo-xl {
+  width: 80px;
+  height: 80px;
+}
+
+.profile-bar__photo-sm {
+  width: 60px;
+  height: 60px;
+}
+
+.profile-bar__contents-sm {
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.profile-bar__contents-xl {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.profile-bar__contents-subtitle {
+  color: #d0d0d0;
+  font-size: 25px;
 }
