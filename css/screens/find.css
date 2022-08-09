@@ -1,0 +1,97 @@
+.openchet-list__content-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5%;
+}
+
+.gear-box {
+  bottom: 10px;
+}
+
+.find__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.find__list-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.find__list-btn-text {
+  font-size: 25px;
+}
+
+.find-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray);
+  height: 250px;
+}
+
+.find-channel__side {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-channel__side i {
+  margin-left: 5px;
+}
+
+.find-angle {
+  position: relative;
+  top: 40px;
+}
+
+.find-channel {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--gray);
+  margin: 0 25px;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.find-channel__text {
+  margin: 10px 0;
+  font-size: 23px;
+}
+
+.openchet-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.openchet-list__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.openchet-list__content:first-child {
+  border-bottom: 1px solid var(--gray);
+}
+
+.openchet-list__content-text-stat {
+  display: flex;
+}
+
+.openchet-list__content-text-stat span {
+  margin-left: 7px;
+  color: palevioletred;
+}
+
+.openchet-list__content-text-title {
+  font-size: 32px;
+}
+
+.openchet-list__content-text-sub,
+.openchet-list__content-text-stat p {
+  color: rgba(0, 0, 0, 0.4);
+}

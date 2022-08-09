@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>찾기</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi status-bar__column-icons"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>111%</span>
+        <i class="fa-solid fa-battery-full status-bar__column-icons"></i>
+      </div>
+    </div>
+
+    <div class="title-menu main-screen">
+      <p class="title-menu__name">찾기</p>
+      <div class="title-menu__icons">
+        <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+        <i class="fa-solid fa-gear fa-sm">
+          <p class="nav__box gear-box"></p>
+        </i>
+      </div>
+    </div>
+
+    <div class="find__list main-screen">
+      <div class="find__list-btn">
+        <a href="#"><i class="fa-solid fa-qrcode"></i></a>
+        <span class="find__list-btn-text">QR 코드</span>
+      </div>
+      <div class="find__list-btn">
+        <a href="#"><i class="fa-regular fa-address-book"></i></a
+        ><span class="find__list-btn-text">주소록에서 추가</span>
+      </div>
+      <div class="find__list-btn">
+        <a href="#"><i class="fa-solid fa-fingerprint"></i></a
+        ><span class="find__list-btn-text">ID로 추가</span>
+      </div>
+      <div class="find__list-btn">
+        <a href="#"><i class="fa-regular fa-envelope"></i></a
+        ><span class="find__list-btn-text">초대하기</span>
+      </div>
+    </div>
+
+    <div class="friends-channel">
+      <p class="friends-channel__text">추천 친구</p>
+    </div>
+
+    <header class="find-header main-screen">
+      <h1>아직 추천 친구가 없습니다!</h1>
+    </header>
+
+    <div class="find-channel">
+      <div class="find-channel__text">
+        <p>오픈채팅</p>
+      </div>
+      <div class="find-channel__side">
+        <span>오픈채팅 홈 가기</span>
+        <i class="fa-solid fa-angle-right fa-2xs"></i>
+      </div>
+    </div>
+
+    <div class="openchat-list main-screen">
+      <div class="openchet-list__content">
+        <div class="openchet-list__content-text">
+          <p class="openchet-list__content-text-title">#BTS</p>
+          <p class="openchet-list__content-text-sub">#BTS#ARMY#친구</p>
+          <div class="openchet-list__content-text-stat">
+            <p>802 멤버 |</p>
+            <span>활성화</span>
+          </div>
+        </div>
+        <div class="openchet-list__content-photo">
+          <img src="screenshots/logo.png" />
+        </div>
+      </div>
+      <div class="openchet-list__content">
+        <div class="openchet-list__content-text">
+          <p class="openchet-list__content-text-title">#메이플스토리</p>
+          <p class="openchet-list__content-text-sub">#하이퍼버닝#방학</p>
+          <div class="openchet-list__content-text-stat">
+            <p>777 멤버 |</p>
+            <span>활성화</span>
+          </div>
+        </div>
+        <div class="openchet-list__content-photo">
+          <img src="screenshots/logo.png" />
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fa-regular fa-comment"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <p class="nav__box"></p>
+            <i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/0c8e96b5bf.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
